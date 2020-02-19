@@ -39,7 +39,6 @@ pipeline {
 
                     echo "add test here later"
                     '''
-                }
             }
         }
     }
