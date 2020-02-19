@@ -33,9 +33,8 @@ pipeline {
             }
         } 
         stage('Test') {
-            stage('Test app') {
-                steps {
-                    sh '''
+            steps {
+                sh '''
                     set -ex
 
                     echo "add test here later"
