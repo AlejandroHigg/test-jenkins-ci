@@ -7,7 +7,7 @@ pipeline {
       ECR_REPO="${AWS_ACCOUNT}.dkr.ecr.${AWS_REGION}.amazonaws.com/${REPO_NAME}"
       ECR_TAG="${BUILD_ID}"
     }
-    stages{
+    stages {
         stage('Check for CHANGELOG update') {
             steps {
                 sh '''
